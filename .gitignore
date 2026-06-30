@@ -1,0 +1,43 @@
+# ── Python ──
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Node / Frontend ──
+node_modules/
+frontend/dist/
+
+# ── IDE ──
+.idea/
+.vscode/
+.claude/
+*.swp
+*.swo
+*~
+
+# ── Environment & Secrets ──
+.env
+.env.local
+.env.*.local
+
+# ── OS ──
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ── Logs ──
+*.log
+
+# ── ChromaDB persistence (regenerated at runtime) ──
+chroma_data/
+
+# ── Temporary files ──
+*.tmp
+*.bak
